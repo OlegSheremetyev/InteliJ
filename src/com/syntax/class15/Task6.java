@@ -1,4 +1,4 @@
-package com.syntax.class15.com.syntax;
+package com.syntax.class15;
 
 public class Task6 {boolean isPrime(int x){
     boolean isPrime=true;

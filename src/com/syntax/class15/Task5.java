@@ -1,4 +1,4 @@
-package com.syntax.class15.com.syntax;
+package com.syntax.class15;
 
 public class Task5 {
     String completeEmail(String firstName, String lastName, String emailType)

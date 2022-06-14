@@ -1,4 +1,4 @@
-package com.syntax.class15.com.syntax;
+package com.syntax.class15;
 
 public class Main {
     void add(int x,int y){

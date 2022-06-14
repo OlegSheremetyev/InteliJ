@@ -1,4 +1,4 @@
-package com.syntax.class15.com.syntax;
+package com.syntax.class15;
 
 public class Task1 {
     static void printLarger(int num1, int num2) {

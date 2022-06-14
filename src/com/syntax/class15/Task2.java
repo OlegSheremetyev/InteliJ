@@ -1,4 +1,4 @@
-package com.syntax.class15.com.syntax;public class Task2 {
+package com.syntax.class15;public class Task2 {
     void printEvenOrOdd(int number){
 
         if(number%2==0){
