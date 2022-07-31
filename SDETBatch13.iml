@@ -30,5 +30,6 @@
         <jarDirectory url="file://$USER_HOME$/Downloads/poi-bin-5.2.2/ooxml-lib" recursive="false" />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

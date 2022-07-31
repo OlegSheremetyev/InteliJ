@@ -1,0 +1,90 @@
+Encapsulation:
+    it is one of the pillars of OOP.
+    Making the class fields private and creating
+    getter setter methods is called encapsulation.
+Why we should care about Encapsulation:
+    1) it provides privacy
+    2) it provides security
+How we can use Encapsulation:
+    We make the class fields private
+    and create methods to access and modify these
+    fields.
+Rules for Setter Methods:
+    1) They should be public
+    2) They should have void as return type.
+    3) They should have a parameter of same type as field.
+Rules for Getter Methods:
+    1) They should be public
+    2) Their return type should be same as field return type
+    3) They should not take any parameters
+class BankAccount{
+    private String userName;
+    private String password;
+    private double balance;
+    public void setUserName(String userName){
+    this.userName=userName;
+    }
+
+    public void setPassword(String password){
+        this.password=password;
+    }
+
+     public void setBalance(double balance){
+            this.balance=balance;
+     }
+
+     public String getUserName(){
+     return userName;
+     }
+
+      public String getPassword(){
+          return password;
+          }
+
+      public double getBalance(){
+           return balance;
+      }
+}
+==================================================================================================
+
+Collection Framework
+Is a set of classes and Interfaces.
+
+Why we should use Collection framework?
+
+The classes inside the collection framework have many methods to store retrive and manipulate the data.
+Using these method it becomes very easy to manipulate the data as compared to Arrays
+All classes are not fixed in size
+HOw we can use this collection framework
+All the classes inside the collection framework dont work with primitive data types
+we need to use wrapper classes here
+
+All the classes in collections framework use generics
+(a class can work with any data type but we need to specify it first by using <> diamond operator)
+
+For example :
+Array<String> name=new ArrayList<>();
+<String> -- is called data type inside the diamond  operator Generics
+
+
+AutoBoxing and AutoUnBoxing :
+When we working with primitives and collections we dont need to convert it happens automatically.
+it is built in feature of java;
+When primitive converted to wrapper type it is called autoBoxing
+when wrapper converts to Primitive Datatype it is called autoUnBoxing
+Here are few intefaces and classes that we will discuss from collections framework:
+
+INTERFACES: 1) Collection 2)List 3)Set 4)iterator 5) Map.Entry
+CLASSES  : 1)ArrayList 2)LinkedList 3)HashSet 4) LinkedHashSet 5)TreeHashSet
+
+UTILITY CLASSES :
+Arrays Collections
+
+LIST
+1) IT CAN STORE DUPLICATE VALUES;
+2) INSERTION ORDER IS MAINTAINED;
+
+
+
+
+
